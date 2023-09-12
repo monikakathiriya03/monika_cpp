@@ -26,7 +26,7 @@ class Cube
 
     double getdata()
     {
-        area = 6 * side * side ;
+        area = 6* side * side ;
 
         return area;
     }
