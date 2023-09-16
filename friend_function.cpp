@@ -1,4 +1,4 @@
-//frienf function - frienf operator overloading
+//frienf function - frienf operator overloading binary
 #include<iostream>
 using namespace std;
 class Triangle{
