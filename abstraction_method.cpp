@@ -6,7 +6,7 @@ class Base
 {
 public:
     
-        void diaplay()
+        void display()
         {
             cout << "Base class output display print ----->"<< endl;
         }
@@ -32,9 +32,9 @@ int main()
     Base  *b;
     Derived d;
 
-    b->diaplay();
+    b->display();
 
     b = &d;
-    b->diaplay();
+    b->display();
     b->showprint();
 }
